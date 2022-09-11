@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty | echo total $(wc -l) | ls -la | tr '/' ' '
+find . -empty | ls -lRa | tr '/' ' '
